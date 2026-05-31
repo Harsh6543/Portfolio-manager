@@ -6,7 +6,6 @@ jobs:
   check:
     runs-on: ubuntu-latest
 
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -15,7 +14,7 @@ jobs:
         run: ls -la
 
       - name: project info
-      - run: echo "Portfolio Manager CI running!"
+        run: echo "Portfolio Manager CI running!"
 
       - name: Show date
-      - run: date
+        run: date
